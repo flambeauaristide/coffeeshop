@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo">
+                <img src="logo.jpg" alt="">
+            </a>
+            <ul class="links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Menu</a>
+                </li>
+                <li>
+                    <a href="#">What's New</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just a coffee<br>It's
+                    <span>more than that</span>
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus nobis eveniet ratione
+                    dolores, distinctio earum et perferendis, commodi laboriosam veritatis. Quos enim facere sint omnis
+                    fugiat eveniet dolorem excepturi?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="img1.jpg" class="coffee" alt="">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li>
+                <img src="thumb1.jpg" onClick="imgSlider('img1.jpg');changeCircleColor('brown')" alt="">
+            </li>
+            <li>
+                <img src="thumb2.jpg" onClick="imgSlider('img2.jpg');changeCircleColor('whitesmoke')" alt="">
+            </li>
+            <li>
+                <img src="thumb3.jpg" onClick="imgSlider('img3.jpg');changeCircleColor('green')" alt="">
+            </li>
+        </ul>
+        <ul class="sci">
+            <li>
+                <a href="#">
+                    <img src="facebook.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="twitter.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="instagram.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
